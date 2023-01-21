@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.our-pets-header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    background-color: #FFFFFF;
+}
+
+.header-body {
+    margin: auto;
+    width: 93.75%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.logo-our-pets {
+    color: #545454;
+}
+
+.subtitle-our-pets {
+    color: #292929;
+}
+
+.links-ourpets {
+    color: #545454;
+}
+
+.border-line {
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.links-ourpets:hover {
+    color: #292929;
+}
+
+.link-ourpets:active {
+    border-bottom: 3px solid #F1CDB3;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.page {
+    width: 100%;
+    height: 1342px;
+    background: #F6F6F6;
+}
+
+.our-pets-body {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.our-pets-paginator {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin: 60px auto;
+}
+
+.our-pets-paginator button {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: 0;
+    align-self: center;
+}
+
+.our-pets-paginator button:hover {
+    background: 0;
+    border: 2px solid #FDDCC4;
+}
+
+.paginator-text-style {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #CDCDCD;
+}
+
+.paginator-text-style:hover {
+    color: #292929;;
+}
+
+.popup-right li {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
